@@ -233,10 +233,10 @@ window.addEventListener('load', function() {
   make_keyboard();
 
   var xhr = new XMLHttpRequest();
-  xhr.open('GET', './hi.wl');
+  xhr.open('GET', './mr.wl');
   xhr.onload = function(x) {
     wl = this.responseText.split('\n');
-    var word = 'निराला';
+    var word = 'नमन';
 
     puzzle = [];
 
@@ -284,18 +284,18 @@ var dotted_circle = '\u25cc';
 
 
 
-<h1>Shabdle: Wordle in Hindi</h1>
-<h2> शब्दल: वर्डल हिंदी में</h2>
+<h1>Shabdle: Wordle in Marathi</h1>
+<h2> शब्दल: मराठी वर्डल</h2>
 
 <p>Use the keyboard below to guess the missing letters in the hidden word. New puzzle every day: the hidden word changes at midnight.
 
-<p>छिपे शब्द के मिटे अक्षर खोजिए कीबोर्ड के साथ। रोज़ एक नई पहेली: छिपा शब्द आधी रात को बदलता है।
+<p>शक्य तितक्या कमी प्रयत्नांमध्ये शब्द शोधा. रोज एक नवीन शब्द.
 
 <p>
-🟩 = correct letter = सही अक्षर<br/>
-🟥 = letter not in word = अक्षर शब्द में नहीं है<br>
-🟨 = letter elsewhere in word = अक्षर शब्द में कहीं और है<br/>
-⬛ = word not in dictionary = मशीन शब्द नहीं पहचान पाई<br/>
+🟩 = correct letter = बरोबर अक्षर<br/>
+🟥 = letter not in word = अक्षर शब्दात नाही<br>
+🟨 = letter elsewhere in word = अक्षर शब्दात इतरत्र आहे<br/>
+⬛ = word not in dictionary = मशीन शब्द ओळखू शकले नाही<br/>
 </p>
 
 <table id="grid">
@@ -311,7 +311,7 @@ var dotted_circle = '\u25cc';
 href="https://www.powerlanguage.co.uk/wordle/">Wordle</a> and its <a
 href="https://restofworld.org/2022/wordle-viral-turkish-japanese-tamil-portuguese/">many
 wonderful remixes</a>. To validate words, it uses the <a
-href="https://ftp.gnu.org/gnu/aspell/dict/0index.html">GNU aspell</a> Hindi
+href="https://ftp.gnu.org/gnu/aspell/dict/0index.html">GNU aspell</a> Marathi
 dictionary. As such, the <a href="https://github.com/kach/shabdle">source
 code</a> for Shabdle is licensed under GPLv2. The puzzle and keyboard are
 typeset in <a
