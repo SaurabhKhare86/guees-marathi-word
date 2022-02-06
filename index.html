@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<script data-goatcounter="https://hardmath123.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-<title>Marathi Wordle</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>Marathi Word Guessing Game</title>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Laila:wght@400;700&display=swap');
@@ -214,7 +213,7 @@ function make_share() {
     'invalid': '⚫'
   }
   var today = new Date().toDateString();
-  var out = "My Shabdle scorecard on " + today + " [copy to share]:\n\n";
+  var out = "My scorecard " + today + " [copy to share]:\n\n";
   for (var i = 0; i < rows.length; i++) {
     for (var j = 0; j < rows[i].length; j++) {
       out += tags[rows[i][j].className];
@@ -284,8 +283,7 @@ var dotted_circle = '\u25cc';
 
 
 
-<h1>Shabdle: Wordle in Marathi</h1>
-<h2> शब्दल: मराठी वर्डल</h2>
+<h1>Marathi Word guessing game</h1>
 
 <p>Use the keyboard below to guess the missing letters in the hidden word. New puzzle every day: the hidden word changes at midnight.
 
@@ -307,7 +305,7 @@ var dotted_circle = '\u25cc';
 <div id="keyboard">
 </div>
 
-<footer>Shabdle is inspired by <a
+<footer>Inspired by <a
 href="https://www.powerlanguage.co.uk/wordle/">Wordle</a> and its <a
 href="https://restofworld.org/2022/wordle-viral-turkish-japanese-tamil-portuguese/">many
 wonderful remixes</a>. To validate words, it uses the <a
